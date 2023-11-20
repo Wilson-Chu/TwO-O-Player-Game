@@ -25,3 +25,9 @@ puts "--- START! ---"
 
 player1 = Player.new('Player 1')
 player2 = Player.new('Player 2')
+
+puts "#{player1.name}: #{player1.score}/3 vs. #{player2.name}: #{player2.score}/3"
+
+new_question = Question.new
+
+puts "#{player1.name}: #{new_question.question}"
