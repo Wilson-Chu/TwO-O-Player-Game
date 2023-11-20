@@ -15,4 +15,13 @@ EXAMPLE PROMPT:
   ----- GAME OVER -----
 =end
 
+require './player'
 require './question'
+
+
+puts "Welcome to the TwO-O-Player Math Game!"
+puts "2 players will start out with 3 lives each, and whoever gets to 0 first loses!"
+puts "--- START! ---"
+
+player1 = Player.new('Player 1')
+player2 = Player.new('Player 2')
